@@ -1,0 +1,41 @@
+doctype html
+html
+  head
+    title RJ Dance Academy
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', href='/static/style.css')
+  body
+    nav#navbar
+      ul
+    
+        li: a(href='/') Home
+        li: a(href='/about') About
+        li: a(href='/contact') Contact
+        li: a(href='/services') Services
+        li: a(href='/class-info') Class Info
+
+    section#introSection
+      div.intro-text
+        h1 Welcome to RJ Dance Academy
+        p.small Eat Sleep Dance Repeat
+
+    section#missionSection
+      h2 Our Mission
+      div.card-container
+        div.card
+          h3 Quality Training
+          p We provide top-notch dance training for all age groups.
+        div.card
+          h3 Experienced Instructors
+          p Learn from professionals with years of experience.
+        div.card
+          h3 Community Events
+          p Participate in various events and showcase your talent.
+
+ 
+
+    footer#footer
+      p © 2025 RJ Dance Academy. All rights reserved.
+
+    script(src='/static/index.js')
